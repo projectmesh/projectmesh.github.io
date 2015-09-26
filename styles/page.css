@@ -1,0 +1,99 @@
+body {
+	background: #eeeeee;
+	font-family: 'Josefin Sans';
+	margin: 0px;
+	padding: 0px;
+	color: #000000;}
+
+html {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;}
+	
+#main {
+	display: block;}
+	
+#text {
+	display: block;
+	font-size: 300%;
+	padding-top: 4px;
+	margin-top: 200px;}
+	
+.text2 {
+	display: block;
+	font-size: 200%;}
+	
+#main {
+	overflow: auto;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 20%;
+	left: 0%;
+	
+	-ms-transition: top 1s, opacity 1s;
+	-webkit-transition: top 1s, opacity 1s;
+	-moz-transition: top 1s, opacity 1s;
+	-o-transition: top 1s, opacity 1s;
+	transition: top 1s, opacity 1s;}
+	
+#index {
+	padding: 15px;
+	position: absolute;
+	top: 4px;
+	left: 0px;}
+	
+#bar {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 4px;}
+	
+svg polygon {
+	stroke-width: 3;
+	stroke-opacity: 0.7;
+	-ms-transition: stroke-opacity 0.2s;
+	-webkit-transition: stroke-opacity 0.2s;
+	-moz-transition: stroke-opacity 0.2s;
+	-o-transition: stroke-opacity 0.2s;
+	transition: stroke-opacity 0.2s;}
+	
+svg polygon:hover {
+	stroke-opacity: 1;}
+	
+p#emphasis {
+	font-size: 180%;
+	max-width: 700px;
+	margin-top: 140px;
+	margin-bottom: 250px;}
+	
+p {
+	font-size: 120%;
+	max-width: 700px;}
+	
+#footer {
+	margin-top: 60px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	float: left;
+	color: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.2);
+	line-height: 120%;}
+	
+#footer a {
+	color: rgba(255, 255, 255, 0.7);}
+	
+a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);}
+	
+a:hover {
+	text-decoration: underline;}
+	
+div.section {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 80px;}
